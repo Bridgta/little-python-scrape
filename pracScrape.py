@@ -11,3 +11,8 @@ bs4.BeautifulSoup(res.text)
 soup = bs4.BeautifulSoup(res.text)
 
 soup.select('#mediaNoAccordion > div.a-row > div.a-column.a-span4.a-text-right.a-span-last > span.a-size-medium.a-color-price.header-price')
+
+elems[0].text.strip()
+
+
+
